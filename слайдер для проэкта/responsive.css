@@ -1,0 +1,182 @@
+@media (max-width: 1200px){
+    .slider .slider-element-1, .slider-element-2, .slider-element-3{
+        max-width: 250px;
+    }
+
+    .slider-element-1__title-1{
+        font-size: 18px;
+    }
+
+    .slider-element-1__text{
+        font-size: 12px;
+    }
+
+    .prices-for-barber-1, .prices-for-manikure{
+        flex-flow: column-reverse;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .top-name{
+        font-size: 15px;
+    }
+
+    .top-price{
+        font-size: 16px;
+    }
+
+    .bottom{
+        font-size: 14px;
+    }
+
+
+    .form-for-price{
+        width: 87%;  
+    }
+
+    
+}
+
+@media (max-width: 1050px){
+    .form-for-price{
+        width: 85%;  
+    }
+}
+
+@media (max-width: 985px){
+    .form-for-price{
+        width: 80%;  
+    }
+}
+
+
+
+@media (max-width: 960px){
+    .slider__item {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .slider .slider-element-1, .slider-element-2, .slider-element-3{
+        max-width:506px;
+        padding: 30px 45px;
+        height: 180px;
+    }
+
+    .slider-element-1__title-2{
+        padding: 20px 0px 0px ;
+    }
+    
+    .slider-element-1__text{
+        padding: 20px 0px 0px ;
+    }
+
+    img {
+        height: 450px;
+    }
+
+    /*  */
+
+    .servises-title, .manikure-title{
+        font-size: 34px;
+    }
+
+    .form-for-price{
+        width: 80%;  
+    }
+}
+
+@media (max-width: 815px){
+    .slider .slider-element-1, .slider-element-2, .slider-element-3{
+        max-width: 450px;
+    }
+
+    img {
+        height: 400px;
+    }
+
+    .servises-title, .manikure-title{
+        font-size: 28px;
+    }
+
+    .form-for-price{
+        width: 77%;  
+    }
+}
+
+@media (max-width: 815px){
+    .form-for-price{
+        width: 75%;  
+    }
+}
+
+@media (max-width: 640px){
+
+    img{
+        height: 320px;
+    }
+
+    .slider-element-1__title-1{
+        font-size: 16px;
+    }
+
+    .slider .slider-element-1, .slider-element-2, .slider-element-3{
+        max-width: 360px;
+        height: 180px;
+        padding: 20px 30px;
+    }
+    .form-for-price{
+        width: 75%;  
+    }
+}
+
+@media (max-width: 550px){
+
+    img{
+        height: 260px;
+    }
+
+    .slider-element-1__title-1{
+        font-size: 14px;
+    }
+
+    .slider-element-1__title-2{
+        font-size: 16px;
+        padding: 20px 0px 0px ;
+    }
+
+    .slider-element-1__text{
+        font-size: 11px;
+        padding: 20px 0px 0px ;
+    }
+
+    .slider .slider-element-1, .slider-element-2, .slider-element-3{
+        max-width: 294px;
+        height: 180px;
+        padding: 20px 15px;
+    }
+
+
+}
+
+@media (max-width: 360px){
+
+    img{
+        height: 220px;
+    }
+    
+    .slider .slider-element-1, .slider-element-2, .slider-element-3{
+        max-width: 294px;
+        height: 250px;
+        padding: 20px 15px;
+    }
+
+    .slider-element-1__title-2{
+        padding: 10px 0px 0px ;
+    }
+
+    .slider-element-1__text{
+        padding: 10px 0px 0px ;
+    }
+}

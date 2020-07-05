@@ -1,0 +1,272 @@
+/* Обнуление */
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+/* Стили для демонстрации */
+html,body{
+    height: 100%;
+    background-color: rgba(126, 79, 26, 0.993);
+    font-family: 'FuturaPT',Arial,sans-serif;
+    color: #fff;
+    font-size: 25px;
+    background: url(img/photo_2020-07-05_22-39-00.jpg);
+}
+.wrapper-1{
+    height: 100%;
+    padding: 50px;
+}
+/* Основные стили */
+
+
+/* Слайдер */
+
+.slick-slider{}
+
+/* Ограничивающая оболочка */
+
+.slick-list{
+    overflow: hidden;
+}
+
+/* Лента слайдов */
+
+.slick-track{
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Стрелка */
+
+.slick-arrow{}
+
+/* Стрелка влево */
+
+.slick-arrow.slick-prev{}
+
+/* Стрелка вправо */
+
+.slick-arrow.slick-next{}
+
+/* Стрелка не активная */
+
+.slick-arrow.slick-disabled{}
+
+/* Точки */
+.slick-dots{}
+.slick-dots li{}
+.slick-dots button{}
+
+/* Конкретный слайдер (ПЕРВЫЙ)*/
+
+.slider{
+    position: relative;
+    padding: 0px 60px;
+}
+
+.slider .slick-arrow{
+    position: absolute;
+    top: 50%;
+    margin: -20px 0px 0px 0px;
+    z-index: 10;
+    font-size: 0;
+    width: 30px;
+    height: 60px;
+}
+
+.slider .slick-arrow.slick-prev{
+    left: 0;
+    background: url('img/4207129321547546473.svg') 0 0 / 100% no-repeat;
+}
+
+.slider .slick-arrow.slick-next{
+    right: 0;
+    background: url('img/5808505211581068835.svg') 0 0 / 100% no-repeat;
+}
+
+.slider .slick-arrow.slick-next .slick-arrow.slick-prev:hover{
+    background-color: rgba(89,32,2,1) !important;
+}
+
+.slider .slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider .slick-dots li{
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.slider .slick-dots button{
+    font-size: 0;
+    width: 7px;
+    height: 7px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.slider .slick-dots li.slick-active button{
+    background-color: transparent;
+    border: 1px solid rgb(124, 50, 21);
+}
+
+.slider__item{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/*  */
+
+.slider-element-1__title-1{
+    font-size: 20px;
+}
+
+.slider-element-1__title-2{
+    font-size: 20px;
+    padding: 30px 0px 0px ;
+    font-weight: 800;
+}
+
+.slider-element-1__text{
+    font-size: 16px;
+    padding: 30px 0px 0px ;
+    line-height: 1.55;
+}
+
+.slider .slider-element-1, .slider-element-2, .slider-element-3{
+    max-width: 410px;
+    height: 400px;
+    background-color: #302b22;
+    padding: 100px 45px;
+}
+
+
+
+/* Конкретный слайдер (ВТОРОЙ)*/
+
+
+
+.slider-1{
+    position: relative;
+    padding: 0px 60px;
+}
+
+.slider-1 .slick-arrow{
+    position: absolute;
+    top: 50%;
+    margin: -20px 0px 0px 0px;
+    z-index: 10;
+    font-size: 0;
+    width: 30px;
+    height: 60px;
+}
+
+.slider-1 .slick-arrow.slick-prev{
+    left: 0;
+    background: url('img/4207129321547546473.svg') 0 0 / 100% no-repeat;
+}
+
+.slider-1 .slick-arrow.slick-next{
+    right: 0;
+    background: url('img/5808505211581068835.svg') 0 0 / 100% no-repeat;
+}
+
+.slider-1 .slick-arrow.slick-next .slick-arrow.slick-prev:hover{
+    background-color: rgba(89,32,2,1) !important;
+}
+
+.slider-1 .slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-1 .slick-dots li{
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.slider-1 .slick-dots button{
+    font-size: 0;
+    width: 7px;
+    height: 7px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.slider-1 .slick-dots li.slick-active button{
+    background-color: transparent;
+    border: 1px solid rgb(124, 50, 21);
+}
+
+.slider__item__barber-servises, .slider__item__manikure-masters{
+    text-align: center;
+}
+
+/* Стили для цен на услуги барберов */
+
+    .servises-title, .manikure-title{
+        font-size: 38px;
+        font-weight: 500;
+        margin: 60px 0px;
+    }
+
+    .servises-min-title{
+        font-size: 14px;
+        margin-bottom: 70px;
+    }
+
+    .prices-for-barber-1, .prices-for-manikure{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .form-for-price{
+        width: 45%;  
+    }
+
+    .top{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .top-name{
+        line-height: 1.35;
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .top-price{
+        line-height: 1.35;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .middle-row{
+        border: white 0.5px solid;
+        margin: 8px 0px;
+    }
+
+    .bottom{
+        line-height: 1.55;
+        text-align: left;
+        font-size: 16px;
+    }
+
+/* Стили для цен на услуги мастера маникюра */
+
+
+/*  */
+
+
+.slider__item.slick-center{
+
+}
